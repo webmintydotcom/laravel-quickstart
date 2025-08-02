@@ -151,3 +151,28 @@ DaisyUI is included to help you build beautiful and customizable user interfaces
 [Homepage](https://daisyui.com/)
 
 [Docs](https://daisyui.com/docs/)
+
+## Additional Configurations
+
+Changes to the default Laravel files are included in this starter kit to improve performance and developer experience.
+
+### app/Providers/AppServiceProvider.php
+
+```php
+Model::preventLazyLoading();
+
+if ($this->app->isProduction()) {
+    Model::handleLazyLoadingViolationUsing(function ($model, $relation) {
+        $class = get_class($model);
+
+        info("Attempted to lazy load [{$relation}] on model [{$class}].");
+    });
+    DB::prohibitDestructiveCommands();
+} else {
+    Model::preventAccessingMissingAttributes();
+    Model::preventSilentlyDiscardingAttributes();
+    Model::shouldBeStrict();
+}
+
+Vite::usePrefetchStrategy('aggressive');
+```
