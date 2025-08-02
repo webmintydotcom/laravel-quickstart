@@ -8,8 +8,9 @@ parameters:
         - app/
 
     level: 5
-	checkModelProperties: true
-	treatPhpDocTypesAsCertain: false
+    checkModelProperties: true
+    treatPhpDocTypesAsCertain: false
+    reportUnmatchedIgnoredErrors: true
 
 #    ignoreErrors:
 #        - '#PHPDoc tag @var#'
