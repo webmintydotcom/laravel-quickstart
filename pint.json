@@ -101,6 +101,11 @@
   ],
   "notPath": [
     "tests/Pest.php",
-    "tests/TestCase.php"
+    "tests/TestCase.php",
+    "app/Http/Controllers/Controller.php",
+    "app/Providers/AppServiceProvider.php",
+    "rector.php",
+    "tests/Feature/ExampleTest.php",
+    "tests/Unit/ExampleTest.php"
   ]
 }
