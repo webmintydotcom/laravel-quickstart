@@ -7,8 +7,9 @@ use Rector\Php83\Rector\ClassMethod\AddOverrideAttributeToOverriddenMethodsRecto
 use RectorLaravel\Set\LaravelSetProvider;
 
 return RectorConfig::configure()
-    ->withSkip([
-        AddOverrideAttributeToOverriddenMethodsRector::class,
+    ->withPaths([
+        __DIR__ . '/app',
+        __DIR__ . '/tests',
     ])
     ->withSetProviders(LaravelSetProvider::class)
-    ->withComposerBased(laravel: true, /** other options */);
+    ->withComposerBased(laravel: true);

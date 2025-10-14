@@ -108,11 +108,11 @@ Pint is included to help you format your Laravel code according to the Webminty 
 
 [Docs](https://laravel.com/docs/12.x/pint)
 
-#### Rector
+#### Laravel Rector
 
 Rector is included to help you refactor and upgrade your Laravel codebase automatically.
 
-[Docs](https://getrector.com/documentation/)
+[Docs](https://github.com/driftingly/rector-laravel)
 
 ### NPM
 
