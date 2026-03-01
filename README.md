@@ -1,8 +1,8 @@
-# Laravel + Livewire + Webminty Defaults Starter Kit
+# Laravel + Webminty Defaults Starter Kit
 
 ## Introduction
 
-This is a starter kit for Laravel applications that includes Livewire, Tailwind CSS, and other useful packages and configurations. 
+This is a starter kit for Laravel applications that includes Tailwind CSS and other useful packages and configurations.
 It is designed to help you quickly set up a new Laravel project with a modern development environment.
 
 ## Installation
@@ -14,7 +14,6 @@ laravel new my-app --pest --npm --using=webmintydotcom/laravel-quickstart
 ## Included Packages
 
 - [Laravel](#laravel)
-  - [Livewire](#livewire)
   - [Spatie Laravel Data](#spatie-laravel-data)
 - [Debugging](#debugging)
   - [Spatie Laravel Ray](#spatie-laravel-ray)
@@ -33,20 +32,10 @@ laravel new my-app --pest --npm --using=webmintydotcom/laravel-quickstart
   - [Prettier](#prettier)
     - [Prettier Plugin - Tailwind CSS](#prettier-plugin---tailwind-css)
     - [Prettier Plugin - Blade](#prettier-plugin---blade)
-  - [DaisyUI](#daisyui)
 
 ### Laravel
 
-Version **12** of Laravel is used in this starter kit.
-
-#### Livewire
-
-Livewire is included to help you build dynamic interfaces without leaving the comfort of Laravel.
-
-[Homepage](https://livewire.laravel.com/)
-
-[Docs](https://livewire.laravel.com/docs/quickstart)
-
+Version **12** of Laravel is used in this starter kit. Requires PHP **8.4+**.
 
 #### Spatie Laravel Data
 
@@ -143,14 +132,6 @@ Prettier Plugin for Tailwind CSS is included to help you format your Tailwind CS
 Prettier Plugin for Blade is included to help you format your Blade templates automatically.
 
 [Docs](https://github.com/stillat/blade-parser-typescript)
-
-#### DaisyUI
-
-DaisyUI is included to help you build beautiful and customizable user interfaces with Tailwind CSS.
-
-[Homepage](https://daisyui.com/)
-
-[Docs](https://daisyui.com/docs/)
 
 ## Additional Configurations
 
