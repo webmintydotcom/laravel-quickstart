@@ -24,4 +24,3 @@ yarn-error.log
 package-lock.json
 composer.lock
 .DS_Store
-/resources/views/vendor/livewire-tables/

@@ -1,8 +1,8 @@
-# Laravel + Livewire + Webminty Defaults Starter Kit
+# Laravel + Webminty Defaults Starter Kit
 
 ## Introduction
 
-This is a starter kit for Laravel applications that includes Livewire, Tailwind CSS, and other useful packages and configurations. 
+This is a starter kit for Laravel applications that includes Tailwind CSS, and other useful packages and configurations.
 It is designed to help you quickly set up a new Laravel project with a modern development environment.
 
 ## Installation
@@ -14,7 +14,6 @@ laravel new my-app --pest --npm --using=webmintydotcom/laravel-quickstart
 ## Included Packages
 
 - [Laravel](#laravel)
-  - [Livewire](#livewire)
   - [Spatie Laravel Data](#spatie-laravel-data)
 - [Debugging](#debugging)
   - [Spatie Laravel Ray](#spatie-laravel-ray)
@@ -23,7 +22,6 @@ laravel new my-app --pest --npm --using=webmintydotcom/laravel-quickstart
     - [Spatie Pest Expectations](#spatie-pest-expectations)
     - [Pest Plugin - Faker](#pest-plugin---faker)
     - [Pest Plugin - Laravel](#pest-plugin---laravel)
-    - [Pest Plugin - Livewire](#pest-plugin---livewire)
     - [Pest Plugin - Type Coverage](#pest-plugin---type-coverage)
   - [Larastan](#larastan)
   - [Pint](#pint)
@@ -38,15 +36,6 @@ laravel new my-app --pest --npm --using=webmintydotcom/laravel-quickstart
 ### Laravel
 
 Version **12** of Laravel is used in this starter kit.
-
-#### Livewire
-
-Livewire is included to help you build dynamic interfaces without leaving the comfort of Laravel.
-
-[Homepage](https://livewire.laravel.com/)
-
-[Docs](https://livewire.laravel.com/docs/quickstart)
-
 
 #### Spatie Laravel Data
 
@@ -87,10 +76,6 @@ Spatie Pest Expectations is included to help you write expressive and readable t
 ##### Pest Plugin - Laravel
 
 [Docs](https://pestphp.com/docs/plugins#laravel)
-
-##### Pest Plugin - Livewire
-
-[Docs](https://pestphp.com/docs/plugins#livewire)
 
 ##### Pest Plugin - Type Coverage
 
